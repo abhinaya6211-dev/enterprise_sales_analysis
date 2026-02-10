@@ -97,8 +97,9 @@ A GenAI layer was added to generate natural-language summaries on top of determi
 ### ▶️ How to Run This Project
 - Option 1: 
 <img width="861" height="466" alt="image" src="https://github.com/user-attachments/assets/5a3044e1-a7a6-4db2-b17a-4b6726eb69f8" />
+
 - Option 2: PostgreSQL + Power BI
-1. Load cleaned dataset into PostgreSQL
-2. Run SQL scripts in /sql/
-3. Connect Power BI to PostgreSQL
-4. Open sales_dashboard.pbix
+> Load cleaned dataset into PostgreSQL
+> Run SQL scripts in /sql/
+> Connect Power BI to PostgreSQL
+> Open sales_dashboard.pbix
