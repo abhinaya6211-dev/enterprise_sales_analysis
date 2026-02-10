@@ -1,7 +1,4 @@
-# enterprise_sales_analysis
-Data analytics project showcasing Enterprise Sales analysis using Python, SQL, Power BI
-
-📊 Enterprise Sales Analytics & GenAI Insights Platform
+# 📊 Enterprise Sales Analytics & GenAI Insights Platform
 
 An end-to-end enterprise sales analytics project demonstrating data engineering, business analysis, SQL analytics, interactive dashboards, and optional GenAI-powered narrative insights.
 
@@ -11,7 +8,7 @@ Python + Streamlit + GenAI for rapid exploratory analysis and conversational ins
 
 PostgreSQL + Power BI for production-grade reporting and executive dashboards
 
-🔍 Project Overview
+## 🔍 Project Overview
 
 The goal of this project is to transform raw enterprise sales data into actionable business insights using industry-standard analytics tools.
 
@@ -27,7 +24,7 @@ Optional GenAI layer for natural-language insight generation
 
 Production-ready structure suitable for enterprise environments
 
-📁 Dataset Overview
+## 📁 Dataset Overview
 
 The dataset represents multi-year enterprise sales transactions, including:
 
@@ -55,41 +52,32 @@ Market Classification (USA / Canada / International)
 
 Product Segment Category (Premium, Commercial/Commodity, Primers, Others)
 
-🧰 Tools & Technologies
-Category	Tools
-Programming	Python (Pandas, NumPy, Matplotlib)
-Database	PostgreSQL
-BI & Visualization	Power BI
-Web App	Streamlit
-GenAI	OpenAI API (optional insight layer)
-IDEs	VS Code, pgAdmin
-Version Control	Git, GitHub
-🔄 Analytics Workflow
-1️⃣ Python EDA & Data Preparation
+## 🧰 Tools & Technologies
+Category	                       Tools
+Programming              	Python (Pandas, NumPy, Matplotlib)
+Database	                PostgreSQL
+BI & Visualization	      Power BI
+Web App	                  Streamlit
+GenAI	                    OpenAI API (optional insight layer)
+IDEs	                    VS Code, pgAdmin
+Version Control	          Git, GitHub
+## 🔄 Analytics Workflow
+### 1️⃣ Python EDA & Data Preparation
 
-Data ingestion and validation
-
-Handling missing values and anomalies
-
-Feature engineering (pricing, categories, sale types)
-
-Exploratory data analysis and trend identification
-
+- Data ingestion and validation
+- Handling missing values and anomalies
+- Feature engineering (pricing, categories, sale types)
+- Exploratory data analysis and trend identification
 📂 python_streamlit/
 
-2️⃣ SQL Business Analysis (PostgreSQL)
+### 2️⃣ SQL Business Analysis (PostgreSQL)
 
 Business questions were translated into SQL queries, including:
-
 Revenue trends by year
-
 Top states and markets by revenue and volume
-
 Pricing analysis by product segment
-
 Year-over-year growth using window functions
-
-Identification of premium vs volume-driven segments
+=Identification of premium vs volume-driven segments
 
 📂 sql/
 
